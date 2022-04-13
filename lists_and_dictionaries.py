@@ -694,7 +694,9 @@ fields_to_change = {
 fields_to_exclude_in_the_presence_of_other_fields = {
     "maximum-limit-for-concurrent-connections": "auto-maximum-limit-for-concurrent-connections",
     "maximum-memory-pool-size": "auto-calculate-connections-hash-table-size-and-memory-pool",
-    "memory-pool-size": "auto-calculate-connections-hash-table-size-and-memory-pool"
+    "memory-pool-size": "auto-calculate-connections-hash-table-size-and-memory-pool",
+    "session-timeout": "use-default-session-timeout",
+    "timeout": "use-default-timeout"
 }
 
 fields_to_exclude_from_import_by_api_type_and_versions = {
